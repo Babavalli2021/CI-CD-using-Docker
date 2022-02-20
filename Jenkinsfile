@@ -50,13 +50,8 @@ pipeline {
  
             }
         }
- stage('Run Docker container on remote hosts') {
-             
-            steps {
-                sh "docker -H  run -d -p 8003:8080 babavalli/samplewebapp"
  
-            }
         }
     }
-	}
+
     
